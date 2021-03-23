@@ -1,15 +1,13 @@
-from utils import distance_squared, turn_heading
+from utility import distance_squared, turn_heading
 from statistics import mean
-from ipythonblocks import BlockGrid
-from IPython.display import HTML, display
+# from ipythonblocks import BlockGrid
+# from IPython.display import HTML, display
 from time import sleep
 import random
 import copy
 import collections
 
-#
-______________________________________________________________________
-________
+#______________________________________________________________________________
 
 class Thing:
     """This represents any physical object that can appear in an
